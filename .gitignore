@@ -1,0 +1,11 @@
+node_modules/
+.env
+*.log
+.DS_Store
+dist/
+
+# Prisma
+*.db
+*.db-journal
+prisma/dev.db
+prisma/*.db-journal

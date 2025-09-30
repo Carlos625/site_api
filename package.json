@@ -1,0 +1,27 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "API RESTful para sistema de blog",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "keywords": ["api", "rest", "blog", "express", "prisma"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "@prisma/client": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prisma": "^5.7.0"
+  }
+}
